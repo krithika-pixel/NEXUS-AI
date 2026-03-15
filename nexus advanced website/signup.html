@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - NEXUS AI</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <h1 class="logo" href="index.html">NEXUS.AI</h1>
+
+            <nav>
+                
+                <a href="index.html">HOME</a>
+                <a href="page4.html">PROJECTS</a>
+            </nav>
+
+            <button class="btn-signup"><a href="signup.html">SIGN UP</a></button>
+        </header>
+</div>
+    <section class="signup-section">
+        <div class="main">
+            <form class="signup-form">
+                
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button class="btn-signup">Login</button>
+        </div>
+    </section>
+
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> 
+
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7a2a997c-daaa-47f0-b4b2-04ba6afbe5e1", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c3ad61a8-6597-4be3-867e-fedeff9ae609", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+
+</html>

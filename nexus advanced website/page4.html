@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+         
+         .projects-section {
+            margin: 3rem auto;
+            padding: 100px 0;
+            max-width: 1000px;
+            background-color: rgba(30,30,30,0.7);
+            padding: 3rem 4rem;
+            box-shadow: 0 0 40px #0008;
+            border-radius: 2rem;
+        }
+
+        .projects-list{
+            display:flex;
+            flex-wrap:wrap;
+            gap: 3rem;
+            justify-content: center;
+            max-width: 1000px;
+            
+        }
+
+        .projects-item {
+           background: #181818;
+            border-radius: 1rem;
+            padding: 1.5rem 1rem;
+            box-shadow: 0 0 20px #000a;
+            text-align: center;
+            width: 300px;
+        }
+
+        .project-item img{
+             width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color:whitesmoke;
+            margin-bottom: 0.5rem;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">NEXUS.AI</h1>
+<nav>
+                <a data-aos="fade-down" data-aos-duration="2000" href="index.html">HOME</a>
+                
+                <a data-aos="fade-down" data-aos-duration="3000" href="page4.html">PROJECTS</a>
+</nav>
+        <button data-aos="fade-down" data-aos-duration="1500" class="btn-signup">SIGN UP</button>
+        </header>
+
+        <main>
+            <div class="content">
+                <div data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="1500" class="tag-box">
+                    <div class="tag"> 📊</div>
+                </div>
+
+                <h1 data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="2000" >PROJECTS</h1>
+
+     </div>
+
+    </div>
+
+        </div>
+
+        <section class="projects-section" data-aos="fade-up" data-aos-duration="2000">
+           
+            
+<h2>🤖 AI & Data Science Projects</h2>
+
+<div class="project">
+<h3>👁️ Face Recognition System</h3>
+<p>Detects and identifies faces using computer vision and machine learning. 
+Used in security systems and smartphone face unlock.</p>
+</div>
+
+<div class="project">
+<h3>🩺 Health Prediction using Machine Learning</h3>
+<p>Predicts diseases using patient data like age, blood pressure, and glucose levels.</p>
+</div>
+
+<div class="project">
+<h3>🌦️ Weather Prediction Model</h3>
+<p>Uses historical weather data to predict future weather conditions.</p>
+</div>
+
+<div class="project">
+<h3>💬 Sentiment Analysis</h3>
+<p>Analyzes text reviews to determine whether they are positive, negative, or neutral.</p>
+</div>
+
+<div class="project">
+<h3>🎬 Recommendation System</h3>
+<p>Suggests movies, products, or music based on user preferences.</p>
+</div>
+
+<div class="project">
+<h3>📰 Fake News Detection</h3>
+<p>Uses machine learning algorithms to detect whether news is fake or real.</p>
+</div>
+
+
+        </section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7a2a997c-daaa-47f0-b4b2-04ba6afbe5e1", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c3ad61a8-6597-4be3-867e-fedeff9ae609", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+    <footer>
+    <p>© 2025 Nexus.AI • contact us: nexus.ai.srmuh@gmail.com</p>
+    <p> Crafted with ❤️ by Krithika Meenakshi</p>
+    <div style="margin-top: 10px;">
+      <a href="https://www.linkedin.com/in/krithika-meenakshi-4316a82b6" target="_blank"><i class="fab fa-linkedin fa-lg" style="color: purple;"></i></a>
+      <a href="https://chat.whatsapp.com/ExampleCommunityInviteLink" target="_blank"><i class="fab fa-whatsapp fa-lg" style="color: purple;"></i></a>
+      <a href="https://instagram.com/cherrycosmos9433" target="_blank"><i class="fab fa-instagram fa-lg" style="color: purple;"></i></a>
+    </div>
+  </footer>
+
+
+        </body>
+        </html>
