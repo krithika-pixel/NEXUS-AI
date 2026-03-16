@@ -103,7 +103,30 @@ Feel free to fork the repository and submit pull requests to improve the project
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-Live Demonstration:
+# Live Server Page:
+
+**Home Page** 
+
+<img width="1904" height="904" alt="image" src="https://github.com/user-attachments/assets/e806eba8-6cd5-4533-b7f0-dc4ccdc56fc5" />
+
+________________________________________________________________________________________________________________________________________
+
+**IBM Watson Chatbot** 
+
+<img width="1890" height="901" alt="image" src="https://github.com/user-attachments/assets/cb81ee7d-e991-401b-b931-a09c1e8c8186" />
+
+<img width="1868" height="883" alt="image" src="https://github.com/user-attachments/assets/1f98bd3f-cec1-4d83-ad56-99fb9bf50094" />
+
+
+________________________________________________________________________________________________________________________________________
+
+**Login Page**
+
+
+<img width="1884" height="865" alt="image" src="https://github.com/user-attachments/assets/6d9c6489-c6b9-4b04-ba26-32e7eb32de2e" />
+
+
+______________________________________________________________________________________________________________________________________
 
 
 
