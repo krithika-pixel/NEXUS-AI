@@ -45,8 +45,6 @@ HTML
 
 CSS
 
-JavaScript
-
 AI Chatbot Integration
 
 IBM Watson Assistant (for chatbot)
